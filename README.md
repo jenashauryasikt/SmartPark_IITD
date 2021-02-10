@@ -6,10 +6,9 @@ NOTE: Copy all the image files from the images folder and paste them directly in
 
 trial_1.ipynb: It is a trial run for object detection with the test image as img1.jpg (which is already directly present in the samples folder space). This file is also present as a primary file in the repository. This model is trained on the COCO dataset.
 
-   ```mermaid
-   graph LR
-   Start[Exam] --> Choice(Scored X marks)
-   	Choice --> Decision{if X>30%}
-   	Decision --> |Yes| Passed[Passed]
-   	Decision --> |No| Failed[Failed]
-   ```
+```mermaid
+graph LR
+   A --> B;
+   B --> C;
+   C --> A;
+```
